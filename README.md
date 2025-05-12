@@ -1,0 +1,1 @@
+Recreated the Fancy Counter App with only HTMl CSS and JavaScript
