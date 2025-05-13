@@ -83,38 +83,36 @@ body {
 
 .counter__buttons {
   display: flex;
-  justify-content: space-between;
   width: 100%;
-  height: 116px
+  height: 116px;
   margin-top: auto;
   background-color: #140E06;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
-  padding: 20px;
 }
 
 .counter__icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-  color: #F9F4EB;
+  color: #CD994B;
+  font-size: 40px;
+}
+.counter__icon:hover {
+  color: #E1C293;
 }
 
 .counter__button {
   display: flex;
+  flex: 1;
   justify-content: center;
-  align-items: center;;
-  color: #F9F4EB;
-  font-size: 24px;
-  font-weight: 600;
-  padding: 10px 20px;
-  border-radius: 8px;
+  align-items: center;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 .counter__button:hover {
-  color: #140E06;
-  opacity: 0.6;
+  color: #E1C293;
+}
+
+.counter__button--increase {
+  border-left: 1px solid #CD994B;
 }
 
 @media (max-width: 768px) {
@@ -137,8 +135,6 @@ body {
 .counter__buttons {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-  height: auto;
-  margin-top: 20px;
   }
   .counter__button {
     width: 100%;
