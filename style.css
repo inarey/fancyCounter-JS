@@ -53,32 +53,16 @@ body {
 }
 
 .counter__reset-button {
-  color: #845E25;
-  font-size: 24px;
-  font-weight: 600;
-  padding: 10px 20px;
-  border-radius: 8px;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
 }
 
 .counter__reset-icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
   opacity: 0.3;
   font-size: 35px;
+  transition: all 0.3s ease-in-out;
 }
-
-.counter__reset-button:hover {
-  color: #845E25;
+.counter__reset-icon:hover {
   opacity: 0.6;
-}
-.counter__reset-button:active {
-  transform: translateY(2px);
-}
-.counter__reset-button:focus {
-  outline: none;
 }
 
 .counter__buttons {
@@ -91,12 +75,13 @@ body {
   border-bottom-right-radius: 12px;
 }
 
-.counter__icon {
-  color: #CD994B;
+.counter__button {
+  color: #845E25;
   font-size: 40px;
 }
-.counter__icon:hover {
-  color: #E1C293;
+.counter__reset--icon:hover {
+  color: #845E25;
+  opacity: 0.6;
 }
 
 .counter__button {
@@ -108,7 +93,8 @@ body {
   transition: all 0.3s ease-in-out;
 }
 .counter__button:hover {
-  color: #E1C293;
+  background-color: #140E06;
+  opacity: 0.6;
 }
 
 .counter__button--increase {
