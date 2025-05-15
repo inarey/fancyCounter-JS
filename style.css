@@ -62,7 +62,7 @@ body {
   transition: all 0.3s ease-in-out;
 }
 .counter__reset-icon:hover {
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .counter__buttons {
@@ -78,10 +78,6 @@ body {
 .counter__button {
   color: #845E25;
   font-size: 40px;
-}
-.counter__reset--icon:hover {
-  color: #845E25;
-  opacity: 0.6;
 }
 
 .counter__button {
